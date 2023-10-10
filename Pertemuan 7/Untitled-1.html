@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Load file CSS Bootstrap offline -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class="container d-flex justify-content-center">
+		
+		<h2>Form Login dengan Bootstrap</h2>
+	</div>
+	<div class="container d-flex justify-content-center">
+		<form action="#" method="post" class="w-25">
+
+			<div class="form-group ">
+				<label>Nama:</label>
+				<input type="text" name="username" class="form-control" placeholder="Nama" />
+			</div>
+			<div class="form-group">
+				<label>Pilih Jurusan:</label>
+				<select class="form-control">
+					<option>Teknik Informatika</option>
+					<option>Sistem Informasi</option>
+					<option>Teknik Komputer</option>
+					<option>Manajemen Informatika</option>
+					<option>Komputerisasi Akuntansi</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Jenis Kelamin:</label>
+
+				<div class="form-check">
+
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Laki-laki
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Perempuan
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label>Hobi:</label>
+
+				<div class="form-check">
+
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value="">Sepak Bola
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value="">Membaca Buku
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value="">Berenang
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value="">Bermain Gitar
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value="">Traveling
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label>Alamat:</label>
+				<textarea class="form-control" rows="5"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+
+		</form>
+	</div>
+</body>
+
+</html>
